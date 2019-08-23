@@ -1,0 +1,41 @@
+/*
+[0] NAVBAR
+[1] MAIN CONTENT
+[2] MEDIA QUERIES
+*/
+
+
+/* [0] NAVBAR */
+#navbar {
+	position: fixed;
+	min-width: 290px;
+	top: 0px;
+	left: 0px;
+	width: 300px;
+	height: 100%;
+	border: 1px solid #000;
+}
+#navbar ul {
+	height: 88%;
+	padding: 0;
+	overflow-y: 0;
+	overflow-x: hidden;
+}
+#navbar li {
+	border-top: 1px solid #000;
+	position: relative;
+	width: 100%;
+	list-style: none;
+}
+#navbar a {
+	color: #000;
+}
+/* [1] MAIN CONTENT */
+#main-doc {
+	position: absolute;
+	margin-left: 310px;
+	height: 100%;
+	margin-bottom: 110px;
+}
+
+/* [2] MEDIA QUERIES */
