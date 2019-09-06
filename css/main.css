@@ -7,6 +7,8 @@
 
 /* [0] NAVBAR */
 #navbar {
+	background-color: #D8E6E7;
+	font-family: 'Playfair Display', serif;
 	position: fixed;
 	min-width: 290px;
 	top: 0px;
@@ -32,10 +34,50 @@
 }
 /* [1] MAIN CONTENT */
 #main-doc {
+	font-family: 'Playfair Display', serif;
 	position: absolute;
 	margin-left: 310px;
 	height: 100%;
 	margin-bottom: 110px;
+	padding: 1%;
+	padding-bottom: 5%;
 }
-
+#main-doc ul {
+	margin: 0 auto;
+	width: 90%;
+	background-color: #e3e3e3;
+}
+#main-doc a {
+	color: #000;
+}
+code {
+	background-color: #9DC3C1;
+	color: #000;
+	padding: 1%;
+	margin-bottom: 1%;
+}
 /* [2] MEDIA QUERIES */
+@media only screen and (max-width: 815px) {
+	#navbar {
+		position: absolute;
+		top: 0;
+		padding: 0;
+		margin: 0;
+		width: 100%;
+		max-height: 275px;
+		z-index: 1;		
+	}
+	#navbar ul {
+		height: 207px;	
+	}
+	#main-doc {
+		position: relative;
+		margin-left: 0;
+		margin-top: 290px;
+	}
+}
+@media only screen and (max-width: 400px) {
+	#main-doc {
+		margin-left: -10px;
+	}
+}
